@@ -16,6 +16,10 @@ class Flower {
     
     // MARK: Initializer
     init?(name: String, photo: UIImage?, photograper: String?) {
+
+        if name.isEmpty {
+            return nil
+        }
         
         self.name = name
         self.photo = photo
