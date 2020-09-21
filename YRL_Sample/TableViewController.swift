@@ -106,7 +106,7 @@ class TableViewController: UITableViewController {
     func loadSampleFlower() {
         let photo1 = UIImage(named: "flower1")
         let photo2 = UIImage(named: "flower2")
-        let photo3 = UIImage(named: "flower3")
+        let photo4 = UIImage(named: "flower4")
         
         if let flower1 = Flower.init(name: "ガーベラ", photo: photo1, photograper: "Andrew Small") {
              flowers.append(flower1)
@@ -115,11 +115,11 @@ class TableViewController: UITableViewController {
             flowers.append(flower2)
         }
         
-//        if let flower3 = Flower.init(name: "バラ", photo: nil, photograper: "秋山正太郎") {
-//            flowers.append(flower3)
-//        }
+        if let flower3 = Flower.init(name: "バラ", photo: nil, photograper: "秋山正太郎") {
+            flowers.append(flower3)
+        }
         
-        if let flower4 = Flower.init(name: "シャクヤク", photo: photo3, photograper: "Olia Gonzha") {
+        if let flower4 = Flower.init(name: "シャクヤク", photo: photo4, photograper: "Olia Gonzha") {
             flowers.append(flower4)
         }
         
