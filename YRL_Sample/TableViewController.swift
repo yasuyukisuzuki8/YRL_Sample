@@ -123,19 +123,6 @@ class TableViewController: UITableViewController {
             flowers.append(flower4)
         }
         
-        
-        let name = ""
-        var photo: UIImage?
-        photo = nil
-        let photographer = "秋山正太郎"
-        
-        
-        if let flower = Flower.init(name: name, photo: photo, photograper: photographer) {
-            flowers.append(flower)
-        } else {
-            os_log("loadData(): failed to create Flower object.", type: .error)
-        }
-        
     }
 
 }
