@@ -2,7 +2,7 @@
 //  Flower.swift
 //  YRL_Sample
 //
-//  Created by Yasuyuki Suzuki on 2020/05/09.
+//  Created by Yasuyuki Suzuki on 2020/05/26
 //  Copyright © 2020 Yasuyuki Suzuki. All rights reserved.
 //
 
@@ -17,6 +17,7 @@ class Flower {
     // MARK: Initializer
     init?(name: String, photo: UIImage?, photograper: String?) {
 
+        // bug fix
         if name.isEmpty {
             return nil
         }
